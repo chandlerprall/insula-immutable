@@ -1,0 +1,12 @@
+{
+  "name": "insula-immutable",
+  "version": "1.0.0",
+  "description": "Insula middleware to use Immutable.js objects as the state",
+  "main": "index.js",
+  "author": "Chandler Prall <chandler.prall@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "immutable": "^3.8.1",
+    "insula": "^2.0.0"
+  }
+}
