@@ -1,6 +1,6 @@
 {
   "name": "insula-immutable",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Insula middleware to use Immutable.js objects as the state",
   "main": "index.js",
   "author": "Chandler Prall <chandler.prall@gmail.com>",

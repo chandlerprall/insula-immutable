@@ -1,4 +1,4 @@
-const InsulaImmutableMiddleware = {
+var InsulaImmutableMiddleware = {
     constructor: function insulaImmutableConstructor() {
         this.accessStateAtSelector = function insulaImmutableAccessStateAtSelector(selector) {
             return this.state.getIn(selector, null);
