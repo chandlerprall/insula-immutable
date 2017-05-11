@@ -8,7 +8,7 @@ var InsulaImmutableMiddleware = {
             if (selector.length === 0) {
                 this.setState(value);
             } else {
-                this.setState(this.getState().setIn(selector, value));
+                this.state = this.getState().setIn(selector, value);
             }
         };
     }
