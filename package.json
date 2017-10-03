@@ -7,7 +7,7 @@
   "repository": "https://github.com/chandlerprall/insula-immutable",
   "license": "MIT",
   "peerDependencies": {
-    "immutable": "^3.8.1",
+    "immutable": "^3.8.1 || ^4.0.0",
     "insula": "^2.0.0"
   }
 }
