@@ -17,12 +17,13 @@ function isImmutable(value) {
 }
 
 function verifyDeeplyImmutable(value, selector) {
+    if (value === null) return;
+
     var valueType = typeof value;
     switch (valueType) {
         case 'string':
         case 'boolean':
         case 'number':
-        case 'null':
         case 'undefined':
             // these primatives are fine
             break;
